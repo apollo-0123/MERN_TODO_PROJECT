@@ -1,0 +1,10 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure footer stays at bottom */
+.App > *:last-child {
+  margin-top: auto;
+} 
