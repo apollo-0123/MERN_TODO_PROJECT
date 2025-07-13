@@ -70,15 +70,7 @@ const Header: React.FC = () => {
                 className="nav-todo-btn"
                 onClick={() => handleProtectedNav('/todo')}
               >
-                ✅ Todo List
-              </button>
-            </li>
-            <li>
-              <button
-                className="nav-news-btn"
-                onClick={() => handleProtectedNav('/news')}
-              >
-                📰 News
+                Plans
               </button>
             </li>
           </ul>
